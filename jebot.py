@@ -50,7 +50,7 @@ Just send a photo or video less than 5mb file size, I'll upload it to telegraph 
                                         InlineKeyboardButton(
                                             "About", callback_data="about"),
                                   ],[                                        
-                            ),        
+                                   
             disable_web_page_preview=True,        
             parse_mode="html")
 
