@@ -118,7 +118,7 @@ async def telegraphgif(client, message):
         await msg.edit_text("Gif size should be less than 1024mb!") 
     else:
         await msg.edit_text(f'**Uploaded To Telegraph!\n\n👉 https://telegra.ph{response[0]}\n\nJoin @mrbotslist**',
-            disable_web_page_preview=True,
+            disable_web_page_preview=False,
         )
     finally:
         os.remove(download_location)
