@@ -30,7 +30,7 @@ Hit help button to find out more about how to use me</b>""",
                                             "Channel", url="https://t.me/mrbotslist")
                                     ]]                                 
                             ),        
-            disable_web_page_preview=True,        
+            disable_web_page_preview=False,        
             parse_mode="html")
 
 @Jebot.on_message(filters.command("help"))
